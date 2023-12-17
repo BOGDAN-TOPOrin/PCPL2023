@@ -50,7 +50,7 @@ class TestProgram(unittest.TestCase):
             (self.courses[4], self.groups[4])
         ])
 
-    """def test_get_sorted_courses_by_group(self):
+    def test_get_sorted_courses_by_group(self):
         result = get_sorted_courses_by_group(self.groups, self.courses)
         self.assertEqual(result, [
             (self.courses[3], self.groups[4]),
@@ -62,7 +62,7 @@ class TestProgram(unittest.TestCase):
             (self.courses[0], self.groups[1]),
             (self.courses[1], self.groups[2]),
             (self.courses[2], self.groups[7])
-        ])"""
+        ])
 
     def test_get_filtered_data(self):
         result = get_filtered_data(self.groups, self.courses, self.groups_courses, 'Р')
