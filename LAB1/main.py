@@ -1,4 +1,5 @@
-#from colorama import init, Fore
+
+from colorama import init, Fore
 from rectangle import Rectangle
 from square import Square
 from circle import Circle
